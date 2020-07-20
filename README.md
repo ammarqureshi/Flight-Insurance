@@ -23,6 +23,11 @@ To use the dapp:
 `truffle migrate`
 `npm run dapp`
 
+if you get 'webpack-Icl/config-yargs' error
+
+npm uninstall webpack webpack-cli webpack-dev-server
+npm install --save-dev webpack@latest webpack-cli@latest webpack-dev-server@latest
+
 To view dapp:
 
 `http://localhost:8000`
